@@ -1,12 +1,12 @@
-// App.jsx
+//App.jsx
 import React from 'react';
-import { HallifaxSparePartsCenter } from './HallifaxSparePartsCenter.jsx';
+import HallifaxSparePartsCenter from './HallifaxSparePartsCenter';
 
-function App = () => {
+const App = () => {
   return (
     <div>
       <h1>Welcome to the Halifax Spare Parts Center</h1>
-      <HallifaxSparePartsCenter isOpen={true} additionalStock={True} />
+      <HallifaxSparePartsCenter isOpen={true} additionalStock={true} />
     </div>
   );
 };
